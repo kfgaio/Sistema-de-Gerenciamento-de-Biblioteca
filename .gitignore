@@ -1,0 +1,37 @@
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+
+# Arquivos do MySQL Workbench (ex: arquivos de configuração, logs de erros)
+*.err
+*.sql~ 
+
+# Diretórios de ambiente virtual (Python)
+venv/
+env/
+
+# Arquivos de configuração locais
+config/
+*.env
+
+# Dependências instaladas
+node_modules/
+vendor/
+
+# Arquivos de backup gerados por editores
+*~
+*.swp
+*.swo
+
+# Diretórios de compilação e binários
+bin/
+obj/
+
+# Outros arquivos indesejados
+.idea/
+.vscode/
+__pycache__/
